@@ -1,0 +1,227 @@
+{
+  "cv": "CV_1.pdf",
+  "score": 0.95,
+  "status": "verified",
+  "claims": {
+    "name": "Angela Yip",
+    "city": "London",
+    "country": "UK",
+    "industry": "Logistics",
+    "jobs": [
+      {
+        "company": "Deloitte",
+        "title": "Senior Manager",
+        "seniority": "senior",
+        "start_year": 2020,
+        "end_year": null,
+        "is_current": true,
+        "quote": "Senior Manager, Deloitte    2020 – Present"
+      },
+      {
+        "company": "Carousell",
+        "title": "Senior Scientist",
+        "seniority": "senior",
+        "start_year": 2012,
+        "end_year": 2018,
+        "is_current": false,
+        "quote": "Senior Scientist, Carousell    2012 – 2018"
+      }
+    ],
+    "education": [
+      {
+        "school": "Stanford",
+        "degree": "Master of Business Administration",
+        "field": "Logistics",
+        "graduation_year": 2012,
+        "quote": "Master of Business Administration in Logistics    Graduated 2012\nStanford"
+      }
+    ],
+    "skills": [
+      "Supply Chain",
+      "Inventory Management",
+      "Operations"
+    ]
+  },
+  "linkedin": {
+    "id": 6337,
+    "name": "Angela Yip",
+    "city": "London",
+    "country": "UK",
+    "industry": "Logistics",
+    "experience": [
+      {
+        "company": "Carousell",
+        "title": "Scientist",
+        "seniority": "senior",
+        "start_year": 2012,
+        "end_year": 2018,
+        "is_current": false
+      },
+      {
+        "company": "Deloitte",
+        "title": "Manager",
+        "seniority": "senior",
+        "start_year": 2020,
+        "end_year": null,
+        "is_current": true
+      }
+    ],
+    "education": [
+      {
+        "school": "Stanford",
+        "degree": "MBA",
+        "field": "Logistics",
+        "start_year": 2008,
+        "end_year": 2012
+      }
+    ],
+    "skills": [
+      {
+        "name": "Supply Chain",
+        "proficiency": 3
+      },
+      {
+        "name": "Inventory Management",
+        "proficiency": 2
+      },
+      {
+        "name": "Operations",
+        "proficiency": 2
+      }
+    ]
+  },
+  "facebook": {
+    "id": 15,
+    "display_name": "Angela Yip",
+    "original_name": "Angela Yip",
+    "city": "London",
+    "country": "UK",
+    "education": "Doctoral Degree",
+    "current_job": "Scientist",
+    "current_company": "Gojek"
+  },
+  "checks": [
+    {
+      "key": "name",
+      "verdict": "match",
+      "evidence_path": "name",
+      "reason": "Candidate name differs"
+    },
+    {
+      "key": "city",
+      "verdict": "match",
+      "evidence_path": "city",
+      "reason": "Current city differs"
+    },
+    {
+      "key": "jobs.0.company",
+      "verdict": "match",
+      "evidence_path": "experience.1.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.0.title",
+      "verdict": "match",
+      "evidence_path": "experience.1.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.0.seniority",
+      "verdict": "match",
+      "evidence_path": "experience.1.seniority",
+      "reason": "Explicit seniority compared with profile"
+    },
+    {
+      "key": "jobs.0.start_year",
+      "verdict": "match",
+      "evidence_path": "experience.1.start_year",
+      "reason": "CV start_year=2020; LinkedIn start_year=2020"
+    },
+    {
+      "key": "jobs.0.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.1.is_current",
+      "reason": "CV is_current=True; LinkedIn is_current=True"
+    },
+    {
+      "key": "jobs.1.company",
+      "verdict": "match",
+      "evidence_path": "experience.0.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.1.title",
+      "verdict": "match",
+      "evidence_path": "experience.0.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.1.seniority",
+      "verdict": "match",
+      "evidence_path": "experience.0.seniority",
+      "reason": "Explicit seniority compared with profile"
+    },
+    {
+      "key": "jobs.1.start_year",
+      "verdict": "match",
+      "evidence_path": "experience.0.start_year",
+      "reason": "CV start_year=2012; LinkedIn start_year=2012"
+    },
+    {
+      "key": "jobs.1.end_year",
+      "verdict": "match",
+      "evidence_path": "experience.0.end_year",
+      "reason": "CV end_year=2018; LinkedIn end_year=2018"
+    },
+    {
+      "key": "jobs.1.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.0.is_current",
+      "reason": "CV is_current=False; LinkedIn is_current=False"
+    },
+    {
+      "key": "education.0.school",
+      "verdict": "match",
+      "evidence_path": "education.0.school",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.degree",
+      "verdict": "match",
+      "evidence_path": "education.0.degree",
+      "reason": "Degree level differs"
+    },
+    {
+      "key": "education.0.field",
+      "verdict": "match",
+      "evidence_path": "education.0.field",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.graduation_year",
+      "verdict": "match",
+      "evidence_path": "education.0.end_year",
+      "reason": "Graduation year differs"
+    },
+    {
+      "key": "skills.0",
+      "verdict": "match",
+      "evidence_path": "skills.0.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.1",
+      "verdict": "match",
+      "evidence_path": "skills.1.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.2",
+      "verdict": "match",
+      "evidence_path": "skills.2.name",
+      "reason": "Equivalent skill is present"
+    }
+  ],
+  "identity_rank": 14.0,
+  "identity_margin": 11.0
+}
