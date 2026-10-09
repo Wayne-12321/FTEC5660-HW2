@@ -1,0 +1,219 @@
+{
+  "cv": "CV_3.pdf",
+  "score": 0.95,
+  "status": "verified",
+  "claims": {
+    "name": "John Smith",
+    "city": "Hyderabad",
+    "country": "India",
+    "industry": "Consulting",
+    "jobs": [
+      {
+        "company": "Shopee",
+        "title": "Engineer",
+        "seniority": null,
+        "start_year": 2017,
+        "end_year": null,
+        "is_current": true,
+        "quote": "Engineer, Shopee    2017 – Present"
+      },
+      {
+        "company": "Innovate HK Ltd",
+        "title": "Engineer",
+        "seniority": null,
+        "start_year": 2006,
+        "end_year": 2009,
+        "is_current": false,
+        "quote": "Engineer, Innovate HK Ltd    2006 – 2009"
+      }
+    ],
+    "education": [
+      {
+        "school": "Seoul National University",
+        "degree": "PhD",
+        "field": "Consulting",
+        "graduation_year": 2006,
+        "quote": "PhD in Consulting    Graduated 2006\nSeoul National University"
+      }
+    ],
+    "skills": [
+      "Strategy",
+      "Problem Solving",
+      "Microsoft PowerPoint"
+    ]
+  },
+  "linkedin": {
+    "id": 6541,
+    "name": "John Smith",
+    "city": "Hyderabad",
+    "country": "India",
+    "industry": "Consulting",
+    "experience": [
+      {
+        "company": "Innovate HK Ltd",
+        "title": "Engineer",
+        "seniority": "mid",
+        "start_year": 2006,
+        "end_year": 2009,
+        "is_current": false
+      },
+      {
+        "company": "Shopee",
+        "title": "Engineer",
+        "seniority": "junior",
+        "start_year": 2017,
+        "end_year": null,
+        "is_current": true
+      }
+    ],
+    "education": [
+      {
+        "school": "Seoul National University",
+        "degree": "PhD",
+        "field": "Consulting",
+        "start_year": 2002,
+        "end_year": 2006
+      }
+    ],
+    "skills": [
+      {
+        "name": "Strategy",
+        "proficiency": 1
+      },
+      {
+        "name": "Problem Solving",
+        "proficiency": 3
+      },
+      {
+        "name": "PowerPoint",
+        "proficiency": 3
+      },
+      {
+        "name": "Data Analysis",
+        "proficiency": 4
+      }
+    ]
+  },
+  "facebook": {
+    "id": 1194,
+    "display_name": "John Smith",
+    "original_name": "John Smith",
+    "city": "Hyderabad",
+    "country": "India",
+    "education": "Bachelor's Degree",
+    "current_job": "Analyst",
+    "current_company": "GreenLeaf Co"
+  },
+  "checks": [
+    {
+      "key": "name",
+      "verdict": "match",
+      "evidence_path": "name",
+      "reason": "Candidate name differs"
+    },
+    {
+      "key": "city",
+      "verdict": "match",
+      "evidence_path": "city",
+      "reason": "Current city differs"
+    },
+    {
+      "key": "jobs.0.company",
+      "verdict": "match",
+      "evidence_path": "experience.1.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.0.title",
+      "verdict": "match",
+      "evidence_path": "experience.1.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.0.start_year",
+      "verdict": "match",
+      "evidence_path": "experience.1.start_year",
+      "reason": "CV start_year=2017; LinkedIn start_year=2017"
+    },
+    {
+      "key": "jobs.0.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.1.is_current",
+      "reason": "CV is_current=True; LinkedIn is_current=True"
+    },
+    {
+      "key": "jobs.1.company",
+      "verdict": "match",
+      "evidence_path": "experience.0.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.1.title",
+      "verdict": "match",
+      "evidence_path": "experience.0.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.1.start_year",
+      "verdict": "match",
+      "evidence_path": "experience.0.start_year",
+      "reason": "CV start_year=2006; LinkedIn start_year=2006"
+    },
+    {
+      "key": "jobs.1.end_year",
+      "verdict": "match",
+      "evidence_path": "experience.0.end_year",
+      "reason": "CV end_year=2009; LinkedIn end_year=2009"
+    },
+    {
+      "key": "jobs.1.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.0.is_current",
+      "reason": "CV is_current=False; LinkedIn is_current=False"
+    },
+    {
+      "key": "education.0.school",
+      "verdict": "match",
+      "evidence_path": "education.0.school",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.degree",
+      "verdict": "match",
+      "evidence_path": "education.0.degree",
+      "reason": "Degree level differs"
+    },
+    {
+      "key": "education.0.field",
+      "verdict": "match",
+      "evidence_path": "education.0.field",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.graduation_year",
+      "verdict": "match",
+      "evidence_path": "education.0.end_year",
+      "reason": "Graduation year differs"
+    },
+    {
+      "key": "skills.0",
+      "verdict": "match",
+      "evidence_path": "skills.0.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.1",
+      "verdict": "match",
+      "evidence_path": "skills.1.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.2",
+      "verdict": "match",
+      "evidence_path": "skills.2.name",
+      "reason": "Equivalent skill is present"
+    }
+  ],
+  "identity_rank": 14.0,
+  "identity_margin": 14.0
+}

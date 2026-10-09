@@ -1,0 +1,215 @@
+{
+  "cv": "CV_2.pdf",
+  "score": 0.95,
+  "status": "verified",
+  "claims": {
+    "name": "Minh Pham",
+    "city": "Beijing",
+    "country": "China",
+    "industry": "Design",
+    "jobs": [
+      {
+        "company": "BCG",
+        "title": "Manager",
+        "seniority": null,
+        "start_year": 2022,
+        "end_year": null,
+        "is_current": true,
+        "quote": "Manager, BCG 2022 – Present"
+      },
+      {
+        "company": "Tencent",
+        "title": "Analyst",
+        "seniority": null,
+        "start_year": 2013,
+        "end_year": 2017,
+        "is_current": false,
+        "quote": "Analyst, Tencent 2013 – 2017"
+      }
+    ],
+    "education": [
+      {
+        "school": "The University of Hong Kong",
+        "degree": "BSc",
+        "field": "Design",
+        "graduation_year": 2011,
+        "quote": "BSc in Design 2011 The University of Hong Kong"
+      }
+    ],
+    "skills": [
+      "UI/UX Design",
+      "Prototyping",
+      "Graphic Design"
+    ]
+  },
+  "linkedin": {
+    "id": 47,
+    "name": "Minh Pham",
+    "city": "Beijing",
+    "country": "China",
+    "industry": "Design",
+    "experience": [
+      {
+        "company": "BCG",
+        "title": "Manager",
+        "seniority": "junior",
+        "start_year": 2022,
+        "end_year": null,
+        "is_current": true
+      },
+      {
+        "company": "Tencent",
+        "title": "Analyst",
+        "seniority": "junior",
+        "start_year": 2013,
+        "end_year": 2017,
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "school": "The University of Hong Kong",
+        "degree": "BSc",
+        "field": "Design",
+        "start_year": 2007,
+        "end_year": 2011
+      }
+    ],
+    "skills": [
+      {
+        "name": "UI/UX",
+        "proficiency": 1
+      },
+      {
+        "name": "Prototyping",
+        "proficiency": 5
+      },
+      {
+        "name": "Graphic Design",
+        "proficiency": 1
+      }
+    ]
+  },
+  "facebook": {
+    "id": 70,
+    "display_name": "Minh Pham",
+    "original_name": "Minh Pham",
+    "city": "Beijing",
+    "country": "China",
+    "education": "Master's Degree",
+    "current_job": "Engineer",
+    "current_company": "Manulife"
+  },
+  "checks": [
+    {
+      "key": "name",
+      "verdict": "match",
+      "evidence_path": "name",
+      "reason": "Candidate name differs"
+    },
+    {
+      "key": "city",
+      "verdict": "match",
+      "evidence_path": "city",
+      "reason": "Current city differs"
+    },
+    {
+      "key": "jobs.0.company",
+      "verdict": "match",
+      "evidence_path": "experience.0.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.0.title",
+      "verdict": "match",
+      "evidence_path": "experience.0.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.0.start_year",
+      "verdict": "match",
+      "evidence_path": "experience.0.start_year",
+      "reason": "CV start_year=2022; LinkedIn start_year=2022"
+    },
+    {
+      "key": "jobs.0.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.0.is_current",
+      "reason": "CV is_current=True; LinkedIn is_current=True"
+    },
+    {
+      "key": "jobs.1.company",
+      "verdict": "match",
+      "evidence_path": "experience.1.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.1.title",
+      "verdict": "match",
+      "evidence_path": "experience.1.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.1.start_year",
+      "verdict": "match",
+      "evidence_path": "experience.1.start_year",
+      "reason": "CV start_year=2013; LinkedIn start_year=2013"
+    },
+    {
+      "key": "jobs.1.end_year",
+      "verdict": "match",
+      "evidence_path": "experience.1.end_year",
+      "reason": "CV end_year=2017; LinkedIn end_year=2017"
+    },
+    {
+      "key": "jobs.1.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.1.is_current",
+      "reason": "CV is_current=False; LinkedIn is_current=False"
+    },
+    {
+      "key": "education.0.school",
+      "verdict": "match",
+      "evidence_path": "education.0.school",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.degree",
+      "verdict": "match",
+      "evidence_path": "education.0.degree",
+      "reason": "Degree level differs"
+    },
+    {
+      "key": "education.0.field",
+      "verdict": "match",
+      "evidence_path": "education.0.field",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.graduation_year",
+      "verdict": "match",
+      "evidence_path": "education.0.end_year",
+      "reason": "Graduation year differs"
+    },
+    {
+      "key": "skills.0",
+      "verdict": "match",
+      "evidence_path": "skills.0.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.1",
+      "verdict": "match",
+      "evidence_path": "skills.1.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.2",
+      "verdict": "match",
+      "evidence_path": "skills.2.name",
+      "reason": "Equivalent skill is present"
+    }
+  ],
+  "identity_rank": 14.0,
+  "identity_margin": 11.0
+}

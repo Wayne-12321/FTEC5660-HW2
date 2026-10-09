@@ -1,0 +1,233 @@
+{
+  "cv": "CV_7.pdf",
+  "score": 0.05,
+  "status": "verified",
+  "claims": {
+    "name": "Jun Liu",
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "industry": "Software",
+    "jobs": [
+      {
+        "company": "Meta",
+        "title": "Analyst",
+        "seniority": null,
+        "start_year": 2016,
+        "end_year": null,
+        "is_current": true,
+        "quote": "Analyst, Meta    2016 – Present"
+      },
+      {
+        "company": "HSBC",
+        "title": "Scientist",
+        "seniority": null,
+        "start_year": 2005,
+        "end_year": 2009,
+        "is_current": false,
+        "quote": "Scientist, HSBC    2005 – 2009"
+      }
+    ],
+    "education": [
+      {
+        "school": "MIT",
+        "degree": "BSc",
+        "field": "Software",
+        "graduation_year": 2004,
+        "quote": "BSc in Software    Graduated 2004\nMIT"
+      }
+    ],
+    "skills": [
+      "Docker",
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Java"
+    ]
+  },
+  "linkedin": {
+    "id": 9590,
+    "name": "Jun Liu",
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "industry": "Software",
+    "experience": [
+      {
+        "company": "HSBC",
+        "title": "Scientist",
+        "seniority": "senior",
+        "start_year": 2005,
+        "end_year": 2009,
+        "is_current": false
+      },
+      {
+        "company": "Meta",
+        "title": "Analyst",
+        "seniority": "senior",
+        "start_year": 2016,
+        "end_year": null,
+        "is_current": true
+      }
+    ],
+    "education": [
+      {
+        "school": "MIT",
+        "degree": "BSc",
+        "field": "Software",
+        "start_year": 2000,
+        "end_year": 2004
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": 4
+      },
+      {
+        "name": "Go",
+        "proficiency": 4
+      },
+      {
+        "name": "Kubernetes",
+        "proficiency": 1
+      },
+      {
+        "name": "Java",
+        "proficiency": 3
+      }
+    ]
+  },
+  "facebook": {
+    "id": 801,
+    "display_name": "Jun Liu",
+    "original_name": "Jun Liu",
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "education": "Bachelor's Degree",
+    "current_job": "Manager",
+    "current_company": "Manulife"
+  },
+  "checks": [
+    {
+      "key": "name",
+      "verdict": "match",
+      "evidence_path": "name",
+      "reason": "Candidate name differs"
+    },
+    {
+      "key": "city",
+      "verdict": "match",
+      "evidence_path": "city",
+      "reason": "Current city differs"
+    },
+    {
+      "key": "jobs.0.company",
+      "verdict": "match",
+      "evidence_path": "experience.1.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.0.title",
+      "verdict": "match",
+      "evidence_path": "experience.1.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.0.start_year",
+      "verdict": "match",
+      "evidence_path": "experience.1.start_year",
+      "reason": "CV start_year=2016; LinkedIn start_year=2016"
+    },
+    {
+      "key": "jobs.0.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.1.is_current",
+      "reason": "CV is_current=True; LinkedIn is_current=True"
+    },
+    {
+      "key": "jobs.1.company",
+      "verdict": "match",
+      "evidence_path": "experience.0.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.1.title",
+      "verdict": "match",
+      "evidence_path": "experience.0.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.1.start_year",
+      "verdict": "match",
+      "evidence_path": "experience.0.start_year",
+      "reason": "CV start_year=2005; LinkedIn start_year=2005"
+    },
+    {
+      "key": "jobs.1.end_year",
+      "verdict": "match",
+      "evidence_path": "experience.0.end_year",
+      "reason": "CV end_year=2009; LinkedIn end_year=2009"
+    },
+    {
+      "key": "jobs.1.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.0.is_current",
+      "reason": "CV is_current=False; LinkedIn is_current=False"
+    },
+    {
+      "key": "education.0.school",
+      "verdict": "match",
+      "evidence_path": "education.0.school",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.degree",
+      "verdict": "match",
+      "evidence_path": "education.0.degree",
+      "reason": "Degree level differs"
+    },
+    {
+      "key": "education.0.field",
+      "verdict": "match",
+      "evidence_path": "education.0.field",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.graduation_year",
+      "verdict": "match",
+      "evidence_path": "education.0.end_year",
+      "reason": "Graduation year differs"
+    },
+    {
+      "key": "skills.0",
+      "verdict": "mismatch",
+      "evidence_path": "skills",
+      "reason": "Docker is not present in the profile skills list, which contains only Python, Go, Kubernetes, and Java."
+    },
+    {
+      "key": "skills.1",
+      "verdict": "match",
+      "evidence_path": "skills.0.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.2",
+      "verdict": "match",
+      "evidence_path": "skills.1.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.3",
+      "verdict": "match",
+      "evidence_path": "skills.2.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.4",
+      "verdict": "match",
+      "evidence_path": "skills.3.name",
+      "reason": "Equivalent skill is present"
+    }
+  ],
+  "identity_rank": 14.5,
+  "identity_margin": 11.0
+}

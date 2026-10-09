@@ -1,0 +1,215 @@
+{
+  "cv": "CV_4.pdf",
+  "score": 0.05,
+  "status": "verified",
+  "claims": {
+    "name": "Michael Cheung",
+    "city": "Munich",
+    "country": "Germany",
+    "industry": "AI",
+    "jobs": [
+      {
+        "company": "Innovate HK Ltd",
+        "title": "Engineer",
+        "seniority": null,
+        "start_year": 2015,
+        "end_year": null,
+        "is_current": true,
+        "quote": "Engineer, Innovate HK Ltd    2015 – Present"
+      },
+      {
+        "company": "Standard Chartered",
+        "title": "Analyst",
+        "seniority": null,
+        "start_year": 2010,
+        "end_year": 2012,
+        "is_current": false,
+        "quote": "Analyst, Standard Chartered    2010 – 2012"
+      }
+    ],
+    "education": [
+      {
+        "school": "Local State University",
+        "degree": "PhD",
+        "field": "AI",
+        "graduation_year": 2004,
+        "quote": "PhD in AI    Graduated 2004\nLocal State University"
+      }
+    ],
+    "skills": [
+      "Python",
+      "PyTorch",
+      "ML"
+    ]
+  },
+  "linkedin": {
+    "id": 8235,
+    "name": "Michael Cheung",
+    "city": "Munich",
+    "country": "Germany",
+    "industry": "AI",
+    "experience": [
+      {
+        "company": "Standard Chartered",
+        "title": "Analyst",
+        "seniority": "senior",
+        "start_year": 2010,
+        "end_year": 2012,
+        "is_current": false
+      },
+      {
+        "company": "Innovate HK Ltd",
+        "title": "Engineer",
+        "seniority": "mid",
+        "start_year": 2014,
+        "end_year": null,
+        "is_current": true
+      }
+    ],
+    "education": [
+      {
+        "school": "Local State University",
+        "degree": "PhD",
+        "field": "AI",
+        "start_year": 2000,
+        "end_year": 2004
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": 2
+      },
+      {
+        "name": "PyTorch",
+        "proficiency": 1
+      },
+      {
+        "name": "ML",
+        "proficiency": 3
+      }
+    ]
+  },
+  "facebook": {
+    "id": 2023,
+    "display_name": "Michael Cheung",
+    "original_name": "Michael Cheung",
+    "city": "Munich",
+    "country": "Germany",
+    "education": "Master's Degree",
+    "current_job": "Analyst",
+    "current_company": "BCG"
+  },
+  "checks": [
+    {
+      "key": "name",
+      "verdict": "match",
+      "evidence_path": "name",
+      "reason": "Candidate name differs"
+    },
+    {
+      "key": "city",
+      "verdict": "match",
+      "evidence_path": "city",
+      "reason": "Current city differs"
+    },
+    {
+      "key": "jobs.0.company",
+      "verdict": "match",
+      "evidence_path": "experience.1.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.0.title",
+      "verdict": "match",
+      "evidence_path": "experience.1.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.0.start_year",
+      "verdict": "mismatch",
+      "evidence_path": "experience.1.start_year",
+      "reason": "CV start_year=2015; LinkedIn start_year=2014"
+    },
+    {
+      "key": "jobs.0.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.1.is_current",
+      "reason": "CV is_current=True; LinkedIn is_current=True"
+    },
+    {
+      "key": "jobs.1.company",
+      "verdict": "match",
+      "evidence_path": "experience.0.company",
+      "reason": "Company names agree"
+    },
+    {
+      "key": "jobs.1.title",
+      "verdict": "match",
+      "evidence_path": "experience.0.title",
+      "reason": "Base title agrees; explicit seniority checked against profile seniority"
+    },
+    {
+      "key": "jobs.1.start_year",
+      "verdict": "match",
+      "evidence_path": "experience.0.start_year",
+      "reason": "CV start_year=2010; LinkedIn start_year=2010"
+    },
+    {
+      "key": "jobs.1.end_year",
+      "verdict": "match",
+      "evidence_path": "experience.0.end_year",
+      "reason": "CV end_year=2012; LinkedIn end_year=2012"
+    },
+    {
+      "key": "jobs.1.is_current",
+      "verdict": "match",
+      "evidence_path": "experience.0.is_current",
+      "reason": "CV is_current=False; LinkedIn is_current=False"
+    },
+    {
+      "key": "education.0.school",
+      "verdict": "match",
+      "evidence_path": "education.0.school",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.degree",
+      "verdict": "match",
+      "evidence_path": "education.0.degree",
+      "reason": "Degree level differs"
+    },
+    {
+      "key": "education.0.field",
+      "verdict": "match",
+      "evidence_path": "education.0.field",
+      "reason": "Equivalent wording"
+    },
+    {
+      "key": "education.0.graduation_year",
+      "verdict": "match",
+      "evidence_path": "education.0.end_year",
+      "reason": "Graduation year differs"
+    },
+    {
+      "key": "skills.0",
+      "verdict": "match",
+      "evidence_path": "skills.0.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.1",
+      "verdict": "match",
+      "evidence_path": "skills.1.name",
+      "reason": "Equivalent skill is present"
+    },
+    {
+      "key": "skills.2",
+      "verdict": "match",
+      "evidence_path": "skills.2.name",
+      "reason": "Equivalent skill is present"
+    }
+  ],
+  "identity_rank": 13.5,
+  "identity_margin": 11.0
+}
