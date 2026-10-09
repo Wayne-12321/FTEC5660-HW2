@@ -1,0 +1,18 @@
+test_error_isolation_and_three_cv_limit (test_verifier.AsyncTests.test_error_isolation_and_three_cv_limit) ... CV verification failed: ConnectionError
+CV verification failed: ValueError
+ok
+test_facebook_nickname_uses_legal_name_and_separate_id (test_verifier.AsyncTests.test_facebook_nickname_uses_legal_name_and_separate_id) ... ok
+test_wrong_city_search_broadens (test_verifier.AsyncTests.test_wrong_city_search_broadens) ... ok
+test_allowed_title_seniority_and_skill_subset (test_verifier.EvidenceTests.test_allowed_title_seniority_and_skill_subset) ... ok
+test_known_equivalence_overrides_model_false_alarm (test_verifier.EvidenceTests.test_known_equivalence_overrides_model_false_alarm) ... ok
+test_mcp_content_and_fastmcp_wrapper (test_verifier.EvidenceTests.test_mcp_content_and_fastmcp_wrapper) ... ok
+test_missing_or_duplicate_field_cannot_be_accepted (test_verifier.EvidenceTests.test_missing_or_duplicate_field_cannot_be_accepted) ... ok
+test_namesake_does_not_win_on_name_and_city_alone (test_verifier.EvidenceTests.test_namesake_does_not_win_on_name_and_city_alone) ... ok
+test_one_year_discrepancy_overrides_positive_model_checks (test_verifier.EvidenceTests.test_one_year_discrepancy_overrides_positive_model_checks) ... ok
+test_role_nouns_are_not_seniority_claims (test_verifier.EvidenceTests.test_role_nouns_are_not_seniority_claims) ... ok
+test_upgraded_degree_overrides_positive_model_checks (test_verifier.EvidenceTests.test_upgraded_degree_overrides_positive_model_checks) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.056s
+
+OK

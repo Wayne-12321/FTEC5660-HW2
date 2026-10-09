@@ -1,0 +1,46 @@
+{
+  "exit_code": 0,
+  "run_seconds": 62.34,
+  "install_and_run_seconds": 91.45,
+  "env_file_present": false,
+  "initial_results_present": false,
+  "rows": [
+    {
+      "cv": "CV_1.pdf",
+      "score": "0.9500",
+      "correctness": "correct"
+    },
+    {
+      "cv": "CV_2.pdf",
+      "score": "0.9500",
+      "correctness": "correct"
+    },
+    {
+      "cv": "CV_3.pdf",
+      "score": "0.9500",
+      "correctness": "correct"
+    },
+    {
+      "cv": "CV_4.pdf",
+      "score": "0.0500",
+      "correctness": "correct"
+    },
+    {
+      "cv": "CV_5.pdf",
+      "score": "0.0500",
+      "correctness": "correct"
+    },
+    {
+      "cv": "CV_6.pdf",
+      "score": "0.9500",
+      "correctness": "correct"
+    },
+    {
+      "cv": "CV_7.pdf",
+      "score": "0.0500",
+      "correctness": "correct"
+    }
+  ],
+  "correct": 7,
+  "total": 7
+}
